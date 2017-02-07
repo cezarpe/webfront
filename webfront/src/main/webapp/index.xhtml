@@ -15,6 +15,7 @@
 		<h:inputText label="Nome" value="#{usuarioBean.usuario.nome}" />
 		<h:inputText label="Login" value="#{usuarioBean.usuario.login}" />
 		<h:inputSecret label="Senha" value="#{usuarioBean.usuario.senha}" />
+		<p:calendar />
 		<h:commandButton name="cadastrarUsuario" value="Cadastrar" action="#{usuarioBean.cadastrar()}" />
 	</h:form>
 	
